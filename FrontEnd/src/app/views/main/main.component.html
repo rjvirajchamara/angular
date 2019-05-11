@@ -1,0 +1,105 @@
+<div id="preloader">
+  <div id="loader"></div>
+</div>
+
+
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
+      </li>
+    </ul>
+
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="/main" class="brand-link text-center">
+      <span class="brand-text font-weight-light"><i class="nav-icon fa fa-institution" aria-hidden="true"></i>&nbsp;ThogaKade</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a routerLink="/dashboard" routerLinkActive="active" href="#" class="nav-link">
+              <i class="nav-icon fa fa-dashboard"></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a routerLink="/manage-customers" routerLinkActive="active" href="#" class="nav-link">
+              <i class="nav-icon fa fa-users"></i>
+              <p>
+                Manage Customers
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a routerLink="/manage-items" routerLinkActive="active"  class="nav-link">
+              <i class="nav-icon fa fa-sitemap"></i>
+              <p>
+                Manage Items
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a routerLink="/place-order" routerLinkActive="active" class="nav-link">
+              <i class="nav-icon fa fa-cart-plus"></i>
+              <p>
+                Place Order
+              </p>
+            </a>
+          </li>
+
+
+          <!--<li class="nav-item">-->
+            <!--/<a (click)="logout()" href="#" class="nav-link">-->
+              <!--<i class="nav-icon fa fa-sign-out"></i>-->
+              <!--<p >-->
+                <!--Logout-->
+              <!--</p>-->
+            <!--</a>-->
+          <!--</li>-->
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <router-outlet></router-outlet>
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+     <div class="float-right d-none d-sm-inline-block">
+
+    </div>
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+

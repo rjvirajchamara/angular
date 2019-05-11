@@ -1,0 +1,34 @@
+#tblCustomers tbody{
+  background-color: white;
+}
+
+#tblCustomers tr{
+  cursor: pointer;
+}
+label,button,table{
+  font-family: "Times New Roman";
+}
+.card-body{
+  font-family: "Times New Roman";
+}
+.card-title{
+  font-family: "Times New Roman";
+}
+h1{
+  font-family: "Times New Roman";
+}
+#tblCustomers tr th:first-child, #tblCustomers tr td:first-child{
+  text-align: center;
+}
+
+#tblCustomers tr td:last-child{
+  text-align: center;
+}
+
+#tblCustomers tr td:last-child:hover{
+  color: red;
+}
+
+.selected{
+  background-color: lightgray;
+}
